@@ -1,0 +1,103 @@
+# Node.js dependencies
+web/node_modules/
+sam2/demo/frontend/node_modules/
+**/node_modules/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+**/*.egg-info/
+sam2/SAM_2.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+.pytest_cache/
+*.egg*
+
+# Build directories
+build/
+dist/
+**/build/
+**/dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+*-checkpoint.ipynb
+.ipynb_checkpoints/
+
+# Machine Learning specific
+**/checkpoints/*.pt
+**/checkpoints/*.pth
+**/checkpoints/*.ckpt
+sam2/checkpoints/*.pt
+demo/backend/checkpoints/*.pt
+outputs/
+logs/
+wandb/
+mlruns/
+tensorboard_logs/
+
+# C/C++ compilation
+_C.*
+*.o
+*.a
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+**/.cache/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React/Vite specific
+web/dist/
+sam2/demo/frontend/dist/
+**/dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager lock files (optional - uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+
+# Docker
+.dockerignore
+
+# Large media files (uncomment if needed)
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
